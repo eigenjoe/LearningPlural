@@ -1,14 +1,17 @@
 #include <iostream>
-
-
 using std::cout;
 using std::cin;
+
+#include <string>
 using std::string;
 
 // Guess my number game
 
-int main() {
+#include "words.h"
 
+
+
+void guessMyNum() {
     int secretNumber = 3;
     int answer;
     bool keepPlaying = true;
@@ -37,5 +40,14 @@ int main() {
         }
 
     }
+}
+
+
+
+int main() {
+
+    words();
+
+
     return 0;
 }

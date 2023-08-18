@@ -52,6 +52,12 @@ build CMakeFiles/C__Path.dir/main.cpp.o: CXX_COMPILER__C__Path_Debug /Users/jose
   OBJECT_DIR = CMakeFiles/C__Path.dir
   OBJECT_FILE_DIR = CMakeFiles/C__Path.dir
 
+build CMakeFiles/C__Path.dir/words.cpp.o: CXX_COMPILER__C__Path_Debug /Users/josephmendoza/Desktop/C++/C++Path/words.cpp || cmake_object_order_depends_target_C__Path
+  DEP_FILE = CMakeFiles/C__Path.dir/words.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/C__Path.dir
+  OBJECT_FILE_DIR = CMakeFiles/C__Path.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C__Path
@@ -60,7 +66,7 @@ build CMakeFiles/C__Path.dir/main.cpp.o: CXX_COMPILER__C__Path_Debug /Users/jose
 #############################################
 # Link the executable C__Path
 
-build C__Path: CXX_EXECUTABLE_LINKER__C__Path_Debug CMakeFiles/C__Path.dir/main.cpp.o
+build C__Path: CXX_EXECUTABLE_LINKER__C__Path_Debug CMakeFiles/C__Path.dir/main.cpp.o CMakeFiles/C__Path.dir/words.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/C__Path.dir
   POST_BUILD = :
